@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bull and Cows</title>
+    <link rel="stylesheet" href="../CSS/Bulls and Cows.css">
+</head>
+<body>
+<div id="game">
+    <h1>Welcome to Bulls and Cows game!</h1>
+    <p id="Rules">
+    <h3>Rules:</h3>
+   <p> At the beginning of the game, the machine thinks out 4 different random numbers.
+    <br>The aim of the game is to guess the numbers that the machine has guessed.
+    <br>The bull means that in the given sequence there is a number that is in the hidden sequence and is in the correct
+    position. <br>A cow indicates that a number was given, but it is in the wrong position. Your numbers have to different.
+   <br> Have a nice game!</p>
+    <div id="gameBC">
+        <p id="fMes">Machine thought a numbers</p>
+        <div class="ButtonsSR">
+            <p class="ButtonsSR">Please, enter your number: &nbsp;<input id="playerNum" type="number">
+                <button id="checkNum"> Check</button>
+            </p>
+            <p class="ButtonsSR">
+                <button id="stNew">Start new game</button>
+            </p>
+        </div>
+        <p id="counter"></p>
+        <p id="answers">Answers:</p>
+        <div id="listAns">
+        </div>
+        <p id="fAns"></p>
+    </div>
+    <button id="stButton">Start game</button>
+</div>
+<script src="../JS/Bulls and Cows.js">
+</script>
+</body>
+</html>

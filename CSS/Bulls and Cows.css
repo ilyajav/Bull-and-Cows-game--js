@@ -1,0 +1,50 @@
+body{
+    background: url("../IMG/cows.jpg");
+    background-size: cover;
+    font-family: myFont, serif;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("../FONTS/17940.otf");
+}
+#game{
+    background: rgba(228, 238, 241, 0.75);
+    color: #000569;
+    padding: 5px;
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+#gameBC{
+    display: none;
+}
+li{
+   list-style-type: disc;
+}
+#stNew{
+    display: none;
+}
+button{
+    border-radius: 5px
+}
+.ButtonsSR{
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    margin-left: 40px;
+}
+#stNew{
+    margin-left: 20px;
+}
+#listAns{
+    display: none;
+}
+#answers{
+    display: none;
+}
+#stButton{
+    margin: auto;
+}
